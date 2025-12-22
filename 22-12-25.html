@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BR Architects</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header image */
+        .hero {
+            position: relative;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+
+        /* Projects section */
+        .projects {
+            padding: 20px;
+        }
+
+        .projects h2 {
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .card {
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: black;
+            color: white;
+            padding: 6px 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="hero">
+        <img src="https://www.w3schools.com/w3images/architect.jpg" alt="Building">
+        <div class="logo">BR Architects</div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <h2>Projects</h2>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house5.jpg">
+                <div class="label">Summer House</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house2.jpg">
+                <div class="label">Brick House</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house3.jpg">
+                <div class="label">Renovated</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house4.jpg">
+                <div class="label">Barn House</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house2.jpg">
+                <div class="label">Summer House</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house5.jpg">
+                <div class="label">Brick House</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house4.jpg">
+                <div class="label">Renovated</div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.w3schools.com/w3images/house3.jpg">
+                <div class="label">Barn House</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
